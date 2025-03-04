@@ -1,0 +1,30 @@
+
+.sidebar__container{
+  width:20%;
+}
+.details__container{
+  flex:1;
+    display:flex;
+    gap:20px;
+  }
+  
+  .details__main{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    margin-right:20px;
+ }
+  
+  .details__main h2{
+    font-size:40px;
+    padding:20px 10px;
+  }
+
+  .details__image{
+    object-fit:cover;
+    border-radius:15px;
+    width:100%;
+    max-width:500px;
+    max-height:300px;
+  }
+  
